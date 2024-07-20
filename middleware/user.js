@@ -22,7 +22,7 @@ exports.auth = async (req, res, next) => {
       return res.status(401).json({
         success: false,
         message: "Token is not valid",
-      });
+      });5
     }
   } catch (error) {
     return res.status(500).json({

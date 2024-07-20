@@ -26,7 +26,7 @@ router.get("/student", auth,isStudent,(req,res)=>{
         message:"Welcome to the protected route of student portal "
     });
 
-})
+});
 
 
 // protected route for admin portal 
